@@ -14,7 +14,6 @@ void setup() {
 }
 ```
 
-[Sez](#lampeggio-del-led-presente-nella-scheda)
 Accendiamo e spegnamo il led ad intervalli di 500ms 
 ```C
 void loop() {
@@ -24,15 +23,5 @@ void loop() {
   digitalWrite(LED_PIN, LOW);
 }
 ```
-<details><summary>CLICK ME</summary>
-#### We can hide anything, even code!
 
-    ```ruby
-      puts "Hello World"
-    ```
-</details>
-
-<p align="center">
-  <img src="LedBlink.png?raw=true" alt="Led blink example"/>
-</p>
-
+<img src="LedBlink.png?raw=true" alt="led" width="600" />
