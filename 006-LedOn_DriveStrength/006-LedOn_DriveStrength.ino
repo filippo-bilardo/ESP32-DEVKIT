@@ -2,9 +2,9 @@
  * \mainpage ESP32-DEVKIT_006-LedOn_DriveStrength
  *
  * @brief  
- * esp_err_tgpio_set_drive_capability(gpio_num_t gpio_num, gpio_drive_cap_t strength)
+ * esp_err_t gpio_set_drive_capability(gpio_num_t gpio_num, gpio_drive_cap_t strength)
  * enum gpio_drive_cap_t = 0-3 ->0=5ma, 1=10ma, 2(default)=20ma, 3=40ma
-  *  
+ *  
  * https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-reference/peripherals/gpio.html
  * 
  * @author Filippo Bilardo
